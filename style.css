@@ -127,6 +127,7 @@ header {
 .generic-section {
     display:grid;
     max-width:1400px;
+    padding:0px 48px;
     gap:120px;
     font-family:'Saira Condensed';
     margin:140px auto 0px auto;
@@ -134,13 +135,12 @@ header {
 }
 
 .generic-section:nth-child(odd) {
-    grid-template-columns:auto max-content;
+    grid-template-columns:auto auto;
 }
 
 .generic-section:nth-child(even) {
-    grid-template-columns:max-content auto;
+    grid-template-columns:auto auto;
 }
-
 
 #guitarist2 {
     max-width:507px;
@@ -189,7 +189,6 @@ header {
 footer{
     background-color:black;
     width:100%;
-    margin-top:180px;
 }
 .footer-content {
     max-width:1440px;
@@ -244,6 +243,128 @@ footer{
     align-items:center;
     gap:30px;
 }
+
+.generic-section > img {
+    object-fit:cover;
+}
+
+main {
+    background-color:#E7DFDF;
+    padding-top:140px;
+    padding-bottom:180px;
+}
+
+.generic-section:nth-child(1) {
+    margin-top:0;
+}
+
+.nav-link {
+    display:flex;
+    align-items:center;
+}
+
+@media (max-width:1270px) {
+
+    .nav-links {
+        gap:3vw;
+    }
+
+    .generic-section {
+        gap:5vw;
+        margin-top:10vw;
+        padding-left:20px;
+        padding-right:20px;
+    }
+    .generic-section > img {
+        width: 100vw;
+        height: auto;
+    }
+    #guitarist2, #guitar, #concert {
+        max-width:100%;
+        width: 100vw;
+        height:30vw;
+    }
+
+    .generic-section:nth-child(odd) {
+        grid-template-columns:4fr 3fr;
+    }
+    
+    .generic-section:nth-child(even) {
+        grid-template-columns:3fr 4fr;
+    }
+
+    .generic-section-text {
+        max-width:100%;
+    }
+
+    .generic-section-title {
+        font-size:4.5vw;
+        line-height:5.5vw;
+    }
+
+    .generic-section-text > p {
+        font-size:2.5vw;
+    }
+
+    .border-right {
+        border-right:10px solid #D14444;
+    }
+    .border-left {
+        border-left:10px solid #D14444;
+    }
+
+    main {
+        padding-top:10vw;
+        padding-bottom:14vw;
+    }
+
+    .nav-link > a {
+        font-size:3vw;
+    }
+
+    .logo {
+        width:6.5vw;
+    }
+
+    .header-content {
+        padding-top:20px;
+        padding-left:20px;
+        padding-right:20px;
+        height:max-content;
+    }
+
+    .header-nav {
+        align-items:center;
+    }
+
+    header {
+        height:18vw;
+    }
+
+    .footer-content > p {
+        font-size:4vw;
+        line-height:4.5vw;
+        margin:2.5vw 0;
+    }
+
+    .footer-content {
+        padding-left:20px;
+        padding-right:20px;
+    }
+
+    .link-images > img {
+        width:4vw;
+    }
+
+    .link-images {
+        gap:2vw;
+    }
+
+    .footer-nav > .nav-links > .nav-link > a {
+        font-size:1.8vw;
+    }
+}
+
 @media (max-width: 860px) {
     .container {
         width: 100%;
