@@ -384,3 +384,23 @@ main {
    
 
 }
+
+.main-description {
+
+    font-family: "Saira Extra Condensed", sans-serif;
+    justify-self: end;
+
+}
+
+.main-header{
+
+    height: 562px;
+
+}
+
+.guitar {
+
+    width: 100%;
+    height: 562px;
+
+}
