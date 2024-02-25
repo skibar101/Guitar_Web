@@ -1,6 +1,7 @@
 body{
     background-color: #ededed;
     margin:0;
+     font-family: 'Saira Extra Condensed';
 }
 
 
@@ -27,17 +28,20 @@ body{
 #email,
 #passwd {
     font-size: 20px;
-    margin-bottom: 10px;  
+    margin-bottom: 20px;  
+    font-family: 'Saira Extra Condensed';
+    font-weight: bold;
 }
 
 label{
     font-size: 25px;
-    font-weight: 1000;  
+    font-weight: 1000;
+     
 }
 
 input{
     border: none;
-    border-radius: 8px; 
+    border-radius: 15px; 
     height:45px;
     width: 300px;
     background-color: #ededed;
