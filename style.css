@@ -1,6 +1,7 @@
 body{
     background-color: #ededed;
     margin:0;
+     font-family: 'Saira Extra Condensed';
 }
 
 
@@ -27,17 +28,20 @@ body{
 #email,
 #passwd {
     font-size: 20px;
-    margin-bottom: 10px;  
+    margin-bottom: 20px;  
+    font-family: 'Saira Extra Condensed';
+    font-weight: bold;
 }
 
 label{
     font-size: 25px;
-    font-weight: 1000;  
+    font-weight: 1000;
+     
 }
 
 input{
     border: none;
-    border-radius: 8px; 
+    border-radius: 15px; 
     height:45px;
     width: 300px;
     background-color: #ededed;
@@ -385,12 +389,14 @@ main {
 
 }
 
+
 .main-description, .generic-section-title {
 
     font-family: "Saira Extra Condensed", sans-serif;
     justify-self: end;
 
 }
+
 
 .main-header{
 
@@ -432,4 +438,46 @@ main {
 }
 
 
+
+.main-nav {
+
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    padding-right: 20px;
+    
+    
+    
+
+}
+
+.overlay-text {
+
+    color: white;
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-size: 100px;
+
+}
+
+.main-description {
+
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-size: 30px;
+
+}
+
+
+.main-master {
+
+    font-family: "Saira Extra Condensed", sans-serif;
+    padding-left: 30px;
+
+}
+
+.guitarist2-main {
+
+    width: 406px;
+    height: 336px;
+
+}
 
