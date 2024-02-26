@@ -385,7 +385,7 @@ main {
 
 }
 
-.main-description {
+.main-description, .generic-section-title {
 
     font-family: "Saira Extra Condensed", sans-serif;
     justify-self: end;
@@ -394,13 +394,42 @@ main {
 
 .main-header{
 
-    height: 562px;
+    background-image: url(guitaristmain.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+    height: 800px;
+  
+}
+
+
+.main-header > .main-header {
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; 
+    padding: 20px;
 
 }
 
-.guitar {
+.rockstar {
 
-    width: 100%;
-    height: 562px;
+    font-size: 170px;
+    display: flex;
+    margin-top: 250px;
+    font-weight: bold;
+    font-family: "Saira Extra Condensed", sans-serif;
 
 }
+
+.main-nav {
+
+    display: flex;
+    justify-content: space-between;
+   
+
+}
+
+
+
