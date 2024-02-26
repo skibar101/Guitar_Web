@@ -267,6 +267,76 @@ main {
     align-items:center;
 }
 
+.main-description, .generic-section-title {
+
+    font-family: "Saira Extra Condensed", sans-serif;
+    
+
+}
+
+.main-header{
+
+    background-image: url(guitaristmain.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 562px;
+    text-align: right;
+    object-fit:cover
+  
+}
+
+.main-content {
+
+    display: inline-block;
+    width: 100%;
+    padding-top: 20px;
+ 
+}
+
+.rockstar {
+
+    font-size: 100px;
+    margin-top: 150px;
+    margin-right: 40px;
+    font-weight: bold;
+  
+}
+
+.main-nav .nav-links {
+
+    list-style: none;
+    margin-right: 20px;
+    display: inline-block;
+
+}
+  
+  .main-nav .nav-link {
+    
+    display: inline-block;
+    margin-right: 20px;
+
+}
+  
+
+.main-description {
+
+    font-family: "Saira Extra Condensed", sans-serif;
+    font-size: 30px;
+
+}
+
+
+.main-master {
+
+    font-family: "Saira Extra Condensed", sans-serif;
+    padding-left: 30px;
+
+}
+
+
 @media (max-width:1270px) {
 
     .nav-links {
@@ -279,10 +349,14 @@ main {
         padding-left:20px;
         padding-right:20px;
     }
+   
     .generic-section > img {
-        width: 100vw;
-        height: auto;
+
+        width: 406px;
+        height: 336px;
+        justify-self: end;
     }
+
     #guitarist2, #guitar, #concert {
         max-width:100%;
         width: 100vw;
@@ -345,6 +419,10 @@ main {
         height:18vw;
     }
 
+    .rockstar{
+        font-size: 80px;
+    }
+
     .footer-content > p {
         font-size:4vw;
         line-height:4.5vw;
@@ -370,6 +448,7 @@ main {
 }
 
 @media (max-width: 860px) {
+
     .container {
         width: 100%;
         height: 100vh;
@@ -384,105 +463,9 @@ main {
     .side img {
         display: none; 
     }
-
    
 
 }
 
-
-.main-description, .generic-section-title {
-
-    font-family: "Saira Extra Condensed", sans-serif;
-    
-
-}
-
-.main-header{
-
-    background-image: url(guitaristmain.png);
-    background-size: cover;
-    background-position: center;
-    color: white;
-    position: relative;
-    width: 100%;
-    height: 562px;
-    text-align: right;
-    object-fit:cover
-  
-}
-
-.header-content {
-
-    display: inline-block;
-    width: 100%;
-    padding-top: 20px;
- 
-}
-
-.rockstar {
-
-    font-size: 100px;
-    margin-top: 150px;
-    margin-right: 40px;
-    font-weight: bold;
-  
-}
-
-.main-nav .nav-links {
-
-    list-style: none;
-    margin-right: 20px;
-    display: inline-block;
-
-}
-  
-  .main-nav .nav-link {
-    
-    display: inline-block;
-    margin-right: 20px;
-
-}
-  
-
-.main-description {
-
-    font-family: "Saira Extra Condensed", sans-serif;
-    font-size: 30px;
-
-}
-
-
-.main-master {
-
-    font-family: "Saira Extra Condensed", sans-serif;
-    padding-left: 30px;
-
-}
-
-
-/* Responsive styling */
-@media (max-width: 768px) {
-    .main-header {
-      text-align: center;
-    }
-  
-    .header-content {
-      display: block;
-    }
-  
-    .main-nav .nav-links {
-      display: block;
-    }
-  
-    .main-nav .nav-link {
-      display: block;
-      margin: 10px 0;
-    }
-  
-    .rockstar {
-      font-size: 2em;
-      margin-top: 10px;
-    }
-  }
 
 
