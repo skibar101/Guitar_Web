@@ -397,7 +397,6 @@ main {
 
 }
 
-
 .main-header{
 
     background-image: url(guitaristmain.png);
@@ -405,59 +404,43 @@ main {
     background-position: center;
     color: white;
     position: relative;
-    height: 800px;
+    height: 562px;
+    text-align: right;
+    object-fit:cover
   
 }
 
+.header-content {
 
-.main-header > .main-header {
-
-    display: flex;
-    flex-direction: column;
-    align-items: flex-end; 
-    padding: 20px;
-
+    display: inline-block;
+    width: 100%;
+ 
 }
 
 .rockstar {
 
-    font-size: 170px;
-    display: flex;
-    margin-top: 250px;
+    font-size: 130px;
+    margin-top: 130px;
+    margin-right: 20px;
     font-weight: bold;
-    font-family: "Saira Extra Condensed", sans-serif;
-
+  
 }
 
-.main-nav {
+.main-nav .nav-links {
 
-    display: flex;
-    justify-content: space-between;
-   
+    list-style: none;
+    padding-top: 20px;
+    display: inline-block;
 
 }
-
-
-
-.main-nav {
-
-    display: flex;
-    gap: 20px;
-    justify-content: right;
-    padding-right: 20px;
+  
+  .main-nav .nav-link {
     
-    
-    
+    display: inline-block;
+    margin-right: 20px;
 
 }
-
-.overlay-text {
-
-    color: white;
-    font-family: "Saira Extra Condensed", sans-serif;
-    font-size: 100px;
-
-}
+  
 
 .main-description {
 
@@ -474,10 +457,5 @@ main {
 
 }
 
-.guitarist2-main {
 
-    width: 406px;
-    height: 336px;
-
-}
 
