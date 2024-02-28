@@ -470,16 +470,21 @@ main {
     }
 
     #guitarist2-main {
-
         width: 100%;
         height: 50%;
-
     }
 
+    .sign-up a {
+        background-color:#B21212;
+        color: white;
+        padding: 4px 8px;
+    }
+
+    .sign-up {
+        background-color: transparent;
+    }
 
 }
-
-
 
 
 
