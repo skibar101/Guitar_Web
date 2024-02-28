@@ -290,9 +290,9 @@ main {
 
 .main-content {
 
-    display: inline-block;
     width: 100%;
     padding-top: 20px;
+    margin-right: 100px;
  
 }
 
@@ -300,7 +300,7 @@ main {
 
     font-size: 100px;
     margin-top: 150px;
-    margin-right: 40px;
+    margin-right: 50px;
     font-weight: bold;
   
 }
@@ -332,7 +332,6 @@ main {
 .main-master {
 
     font-family: "Saira Extra Condensed", sans-serif;
-    padding-left: 30px;
 
 }
 
@@ -420,7 +419,11 @@ main {
     }
 
     .rockstar{
-        font-size: 80px;
+        font-size: 60px;
+    }
+
+    .main-description {
+        font-size: 13px;
     }
 
     .footer-content > p {
@@ -445,6 +448,8 @@ main {
     .footer-nav > .nav-links > .nav-link > a {
         font-size:1.8vw;
     }
+
+
 }
 
 @media (max-width: 860px) {
@@ -463,9 +468,12 @@ main {
     .side img {
         display: none; 
     }
-   
+
 
 }
+
+
+
 
 
 
