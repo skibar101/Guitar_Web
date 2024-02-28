@@ -484,6 +484,10 @@ main {
         background-color: transparent;
     }
 
+    .nav-link > a{
+        font-size: 20px;
+    }
+
 }
 
 
